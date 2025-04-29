@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-Fuel Cafe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero">
+        <h1>Re-Fuel Cafe</h1>
+        <p class="tagline">Your perfect spot to recharge and refuel.</p>
+    </header>
+
+    <nav class="category-navigation">
+        <h2>Explore Our Menu</h2>
+        <div class="categories">
+            <button class="category-btn" data-category="snacks">Snacks</button>
+            <button class="category-btn" data-category="desserts">Desserts</button>
+            <button class="category-btn" data-category="beverages">Beverages</button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section id="menu-section">
+            <p class="placeholder-text">Click on a category above to see our delicious options!</p>
+
+            <div id="snacks-menu" class="menu-category" style="display: none;">
+                <h3>Snacks</h3>
+                <ul class="dish-list">
+                    <li class="dish-item">
+                        <span class="dish-name">Crispy Fries</span>
+                        <span class="dish-price">₹150</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Veggie Spring Rolls (2 pcs)</span>
+                        <span class="dish-price">₹180</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Spicy Chicken Wings (4 pcs)</span>
+                        <span class="dish-price">₹250</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Cheese Nachos</span>
+                        <span class="dish-price">₹220</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="desserts-menu" class="menu-category" style="display: none;">
+                <h3>Desserts</h3>
+                <ul class="dish-list">
+                    <li class="dish-item">
+                        <span class="dish-name">Chocolate Brownie</span>
+                        <span class="dish-price">₹200</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Vanilla Ice Cream Scoop</span>
+                        <span class="dish-price">₹120</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Fruit Tart</span>
+                        <span class="dish-price">₹230</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Gulab Jamun (2 pcs)</span>
+                        <span class="dish-price">₹160</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="beverages-menu" class="menu-category" style="display: none;">
+                <h3>Beverages</h3>
+                <ul class="dish-list">
+                    <li class="dish-item">
+                        <span class="dish-name">Iced Coffee</span>
+                        <span class="dish-price">₹150</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Lemonade</span>
+                        <span class="dish-price">₹100</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Green Tea</span>
+                        <span class="dish-price">₹80</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                    <li class="dish-item">
+                        <span class="dish-name">Masala Chai</span>
+                        <span class="dish-price">₹90</span>
+                        <button class="add-to-cart-btn">Add to Cart</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <div class="place-order-button-container">
+        <button class="place-order-btn">Place Order</button>
+    </div>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Re-Fuel Cafe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                              </html>
